@@ -44,14 +44,14 @@ The application enables users to upload images, adjust compression levels, and v
 
 ### 1.3 Target Audience
 
-* Graphic Designers
-* Web Content Managers
-* Internal Technical Teams
+- Graphic Designers
+- Web Content Managers
+- Internal Technical Teams
 
 ### 1.4 Use Case Scenarios
 
-* Optimizing images for web publishing
-* Reducing file sizes for faster page load times
+- Optimizing images for web publishing
+- Reducing file sizes for faster page load times
 
 ---
 
@@ -59,16 +59,16 @@ The application enables users to upload images, adjust compression levels, and v
 
 ### 2.1 Functional Requirements
 
-* Upload image files via web interface
-* Validate supported formats (JPEG, PNG, WebP)
-* Adjust image quality and compression
-* Display optimized image with feedback
+- Upload image files via web interface
+- Validate supported formats (JPEG, PNG, WebP)
+- Adjust image quality and compression
+- Display optimized image with feedback
 
 ### 2.2 Non-Functional Requirements
 
-* Response time ≤ 1 second
-* Support up to 10 concurrent users
-* Secure file handling
+- Response time ≤ 1 second
+- Support up to 10 concurrent users
+- Secure file handling
 
 ### 2.3 Prioritized User Stories
 
@@ -80,8 +80,8 @@ The application enables users to upload images, adjust compression levels, and v
 
 ### 2.4 Compliance and Benchmarks
 
-* OWASP Top 10 compliance
-* Performance benchmark: <1s processing time
+- OWASP Top 10 compliance
+- Performance benchmark: <1s processing time
 
 ---
 
@@ -89,15 +89,15 @@ The application enables users to upload images, adjust compression levels, and v
 
 ### 3.1 High-Level Architecture
 
-* Client (Browser UI)
-* Next.js Application Server
-* Image Processing Engine (OpenCV)
+- Client (Browser UI)
+- Next.js Application Server
+- Image Processing Engine (OpenCV)
 
 ### 3.2 Component Descriptions
 
-* **Frontend UI:** Handles file uploads and user interaction
-* **API Layer:** Processes requests and responses
-* **Image Processor:** Executes optimization algorithms
+- **Frontend UI:** Handles file uploads and user interaction
+- **API Layer:** Processes requests and responses
+- **Image Processor:** Executes optimization algorithms
 
 ---
 
@@ -117,8 +117,8 @@ The application enables users to upload images, adjust compression levels, and v
 
 **POST /api/optimize**
 
-* Request: Multipart image + quality parameter
-* Response: Optimized image (binary)
+- Request: Multipart image + quality parameter
+- Response: Optimized image (binary)
 
 ### 5.2 Error Codes
 
@@ -129,8 +129,8 @@ The application enables users to upload images, adjust compression levels, and v
 
 ### 5.3 Security Measures
 
-* HTTPS
-* Input validation
+- HTTPS
+- Input validation
 
 ---
 
@@ -150,13 +150,13 @@ No database required due to stateless processing.
 
 ### 7.1 Algorithms
 
-* JPEG compression via quality scaling
-* PNG quantization
+- JPEG compression via quality scaling
+- PNG quantization
 
 ### 7.2 Design Patterns
 
-* MVC (logical separation)
-* Stateless service design
+- MVC (logical separation)
+- Stateless service design
 
 ### 7.3 Pseudo-code
 
@@ -172,17 +172,17 @@ returnOptimizedImage()
 
 ### 8.1 CI/CD Pipeline
 
-* GitHub Actions
-* Automated build and test
+- GitHub Actions
+- Automated build and test
 
 ### 8.2 Hosting
 
-* Vercel (serverless Next.js)
+- Vercel (serverless Next.js)
 
 ### 8.3 Monitoring & Logging
 
-* Vercel Analytics
-* Console logging
+- Vercel Analytics
+- Console logging
 
 ---
 
@@ -190,14 +190,14 @@ returnOptimizedImage()
 
 ### 9.1 Testing Types
 
-* Unit testing
-* Integration testing
-* End-to-end testing
+- Unit testing
+- Integration testing
+- End-to-end testing
 
 ### 9.2 Tools
 
-* Jest
-* Playwright
+- Jest
+- Playwright
 
 ### 9.3 Acceptance Criteria
 
@@ -207,17 +207,17 @@ All requirements pass automated and manual testing.
 
 ## 10. Security Considerations
 
-* File type validation
-* Memory isolation
-* Secure headers
+- File type validation
+- Memory isolation
+- Secure headers
 
 ---
 
 ## 11. Performance Considerations
 
-* In-memory processing
-* Image size limits
-* Horizontal scalability
+- In-memory processing
+- Image size limits
+- Horizontal scalability
 
 ---
 
@@ -225,9 +225,9 @@ All requirements pass automated and manual testing.
 
 ### 12.1 References
 
-* OWASP Top 10
+- OWASP Top 10
 
 ### 12.2 Glossary
 
-* **SSR:** Server-Side Rendering
-* **CI/CD:** Continuous Integration / Deployment
+- **SSR:** Server-Side Rendering
+- **CI/CD:** Continuous Integration / Deployment
