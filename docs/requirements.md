@@ -77,17 +77,17 @@ The scope of this project includes the development of a lightweight web-based to
 
 ### Dependencies
 
-* Availability of the agreed technology stack (Flask backend, React frontend).
+* Availability of the agreed technology stack (Fullstack Next.js framework with OpenCV for image manipulation).
 * Stable development and deployment environments.
 
 ## 8. Constraints
 
-* Budget is limited to $1,000.
+* Budget is limited to $1,000,000.
 * Project timeframe is constrained to 1 week.
 * Technology stack is fixed as follows:
 
-  * Backend: Flask
-  * Frontend: React
+  * Fullstack Framework: Next.js
+  * Image Processing Library: OpenCV
 
 ## 9. Acceptance Criteria
 
