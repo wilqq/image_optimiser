@@ -5,6 +5,6 @@
 // via types/env.d.ts (no import needed)
 
 // Add your type exports here as you create them
-// export * from "./image";
+export * from "./image";
 // export * from "./api";
 // export * from "./common";
